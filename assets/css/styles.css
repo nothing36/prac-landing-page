@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 * {
-    font-family: Roboto, monospace;
+    font-family: 'Roboto';
     margin: 0;
 }
 
@@ -9,8 +10,8 @@ body {
 }
 
 .header, .footer, .content-one, .content-two, .content-three, .content-four {
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 250px;
+    padding-right: 250px;
 }
 
 .header, .footer, .content-one {
@@ -32,6 +33,9 @@ body {
 .content-one {
     display: flex;
     justify-content: space-between;
+    height: 250px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .content-two {
@@ -66,3 +70,33 @@ a {
     color: #e5e7eb
 }
 
+/* Hero section (one) */
+
+.info-signup {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
+    padding-right: 30px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.h1-subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.h1-signup {
+    color: #f9faf8;
+    background-color: #3882f6;
+    border-radius: 5px;
+}
+
+.h1-pic {
+    flex: 1;
+}
