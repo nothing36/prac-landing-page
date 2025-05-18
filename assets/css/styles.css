@@ -59,6 +59,15 @@ body {
     justify-content: center;
 }
 
+.content-four {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    justify-content: center;
+}
+
 /* Header Section */
 
 .header-logo {
@@ -106,7 +115,7 @@ h1 {
     background-color: #3882f6;
     border-radius: 5px;
     height: 35px;
-    width: 75px;
+    width: 100px;
     border-width: 0px;
 }
 
@@ -163,4 +172,37 @@ h2 {
     font-size: 24px;
     font-weight: bold;
     text-align: right;
+}
+
+/* Call to Action Section */
+
+.signup-box {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-radius: 5px;
+    padding: 30px 50px 30px 50px;
+    background-color: #3882f6;
+}
+
+.signup-box button {
+    border-radius: 5px;
+    border: 2px solid white;
+    color: white;
+    background-color: #3882f6;
+    margin-left: auto;
+    height: 35px;
+    width: 100px;
+}
+
+.call-action, .call-info {
+    color: white;
+}
+
+.call-action {
+    font-size: 24px;
+}
+
+.call-info {
+    font-size: 12px;
 }
