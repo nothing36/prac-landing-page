@@ -20,6 +20,8 @@ body {
 .header {
     display: flex;
     justify-content: left;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .footer {
@@ -42,3 +44,25 @@ body {
     flex-direction: column;
     background-color: #e5e7eb;
 }
+
+/* Header Section */
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+    margin-right: auto;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb
+}
+
