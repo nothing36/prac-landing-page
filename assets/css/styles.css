@@ -1,0 +1,44 @@
+* {
+    font-family: Roboto, monospace;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .footer, .content-one, .content-two, .content-three, .content-four {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.header, .footer, .content-one {
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    justify-content: left;
+}
+
+.footer {
+    text-align: center;
+    align-content: center;
+}
+
+.content-one {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-two {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-three {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+}
